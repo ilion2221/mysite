@@ -1,0 +1,17 @@
+﻿User-agent: *
+Disallow: 
+Disallow: http://mr-ilion.com.ua/admin
+Disallow: http://mr-ilion.com.ua/admin/services
+Disallow: http://mr-ilion.com.ua/admin/portfolio
+Disallow: http://mr-ilion.com.ua/admin/order
+Disallow: http://mr-ilion.com.ua/admin/order/view
+Disallow: http://mr-ilion.com.ua/admin/order/delete
+Disallow: http://mr-ilion.com.ua/admin/order/update
+Disallow: http://mr-ilion.com.ua/admin/portfolio/create
+Disallow: http://mr-ilion.com.ua/admin/portfolio/delete
+Disallow: http://mr-ilion.com.ua/admin/portfolio/update
+Disallow: http://mr-ilion.com.ua/admin/services/create
+Disallow: http://mr-ilion.com.ua/admin/services/update
+Disallow: http://mr-ilion.com.ua/admin/services/delete
+Disallow: http://mr-ilion.com.ua/admin/login
+Sitemap: http://mr-ilion.com.ua/
