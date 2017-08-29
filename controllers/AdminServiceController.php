@@ -98,13 +98,9 @@ class AdminServiceController extends AdminBase
             $options['class_service'] = $_POST['class_service'];
 
             // Save changes
-            if (Services::updateServiceById($id_service, $options)) {
+            Services::updateServiceById($id_service, $options);
 
-
-
-            }
-
-            // Перенаправляем пользователя на страницу управлениями товарами
+            // Перенаправляем пользователя на страницу управления
             header("Location: /admin/services");
         }
 

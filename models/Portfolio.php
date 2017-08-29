@@ -74,7 +74,7 @@ class Portfolio
         $db = Db::getConnection();
 
         // Текст запроса к БД
-        $sql = 'INSERT INTO portfolio (id, id_category, name_item,  link_portfolio) VALUES (:id, :id_category, :name_item, :link_portfolio)';
+        $sql = 'INSERT IGNORE INTO parser (id, id_category, name_item,  link_portfolio) VALUES (:id, :id_category, :name_item, :link_portfolio)';
 
         // Receiving and returning results. A prepared query is used
         $result = $db->prepare($sql);

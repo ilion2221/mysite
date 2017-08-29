@@ -28,6 +28,5 @@
         </ul>
     </div>
 <div class="text-center  button-block">
-    <a href="#lets" class="draw meet target-but">Submit your application
-    </a>           </div>
+    <a href="#lets" class="draw meet target-but">Submit your application</a></div>
 </div>
